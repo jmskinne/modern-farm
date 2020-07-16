@@ -4,4 +4,6 @@ export const createPotato = () => {
         height: 32,
         output: 2
     }
+    
 }
+
