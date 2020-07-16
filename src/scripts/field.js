@@ -1,3 +1,7 @@
+
+
+
+
 let growingPlants = []
 export const addPlant = (seedObj) => {
     growingPlants.push(seedObj)
