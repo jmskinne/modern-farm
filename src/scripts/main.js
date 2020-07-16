@@ -5,6 +5,8 @@ import { createPotato } from "./seeds/potato.js"
 import { createSoybean } from "./seeds/soybean.js"
 import { createSunflower } from "./seeds/sunflower.js"
 import { createWheat } from "./seeds/wheat.js"
+import { addPlant } from "./field.js"
+import { usePlants } from "./field.js"
 
 
 const yearlyPlan = createPlan()
@@ -29,20 +31,14 @@ const wheatSeed = createWheat()
 console.log(wheatSeed)
 
 
-// below will need to go into the field.js and imported here
 
-let growingPlants = []
-const addPlant = (seed) => {
-    growingPlants.push(seed)
-}
 
-const usePlant = () => {
-    return growingPlants.slice()
-}
+
+
+
+
+
     
-addPlant(potatoSeed)
-addPlant(potatoSeed)
-addPlant(cornSeed)
-const growing = usePlant()
-console.log(growing)
+
+
 
