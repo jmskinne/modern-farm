@@ -1,11 +1,12 @@
 export const harvestPlants = (plantsArray) => {
     let seedObj = []
-    for (plantHarvesting of plantsArray) {
-            const numberPlanted = Harvesting.output
-                if(plantHarvest.type === "Corn") {
-                    seedObj.push(plantHarvesting) * numberPlanted / 2
+    for (const plantHarvesting of plantsArray) {
+            if(plantHarvesting.type === "Corn") {
+                    for(let index = 0; index < plantHarvesting.output/2; index++)
+                    seedObj.push(plantHarvesting)
                 } else {
-                    seedObj.push(plantHarvesting) * numberPlanted
+                    for(let index = 0; index < plantHarvesting.output; index++)
+                    seedObj.push(plantHarvesting)
                 }
         
 

@@ -17,23 +17,23 @@ const wheatSeed = createWheat()
 export const plantSeeds = (planArray) => {
     for(const plantingPlan of planArray) {
         for(const plantRows of plantingPlan) {
-            if (plantRows.type === "Asparagus") {
+            if (plantRows === "Asparagus") {
                 addPlant(asparagusSeed)
-            } else if (plantRows.type === "Corn") {
+            } else if (plantRows === "Corn") {
                  addPlant(cornSeed)
-            } else if (plantRows.type === "Potato") {
+            } else if (plantRows === "Potato") {
                 addPlant(potatoSeed)
 
                 
-            } else if (plantRows.type === "Soybean") {
+            } else if (plantRows === "Soybean") {
                 addPlant(soybeanSeed)
 
                 
-            } else if (plantRows.type === "Sunflower") {
+            } else if (plantRows === "Sunflower") {
                 addPlant(sunflowerSeed)
 
                 
-            } else if (plantRows.type === "Wheat") {
+            } else if (plantRows === "Wheat") {
                 addPlant(wheatSeed)
 
                 
