@@ -37,9 +37,23 @@ h1,h2,h3,h4,h5,h6 {
 .messages {
     display:flex;
     justify-content: space-between;
+    
 }
 
 .plants {
-    background-color: red;
+    
+    flex-basis: 10%;
+    padding:3rem
+    
+}
+
+.container {
+    display: flex;
+}
+
+article {
+    display:flex;
+    flex-wrap: wrap;
+    
 }
 
