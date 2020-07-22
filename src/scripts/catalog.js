@@ -1,4 +1,4 @@
-export const Catalog = (harvestedFoodArray) => {
+/*export const Catalog = (harvestedFoodArray) => {
     const contentElement = document.querySelector('.container')
 
     
@@ -14,5 +14,4 @@ export const Catalog = (harvestedFoodArray) => {
             ${harvestHTMLRep}
         </article>
     `
-    
-}
+*/
